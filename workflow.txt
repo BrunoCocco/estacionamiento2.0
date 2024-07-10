@@ -1,0 +1,61 @@
+Procesos Clave
+Registro de Entrada de Vehículos
+
+Formulario de entrada: 
+Captura de datos del vehículo (placa, modelo, hora de entrada).
+Validación de espacio disponible: Verificar si hay espacios libres antes de permitir el ingreso.
+
+Asignación de espacio: 
+Asignar un espacio específico al vehículo.
+Registro de Salida de Vehículos
+
+Formulario de salida: 
+Captura de datos de salida (placa, hora de salida).
+Cálculo de tarifas: Calcular el costo según el tiempo de permanencia.
+Liberación de espacio: 
+Marcar el espacio como disponible nuevamente.
+Gestión de Espacios
+
+Monitorización en tiempo real: 
+Mostrar los espacios ocupados y disponibles.
+Configuración del estacionamiento: 
+Definir el número de espacios disponibles y sus características (ej. espacios para discapacitados).
+Historial y Reportes
+
+Historial de movimientos: 
+Registro de entradas y salidas con detalles.
+Reportes: Generar reportes diarios, semanales o mensuales de ocupación y recaudación.
+Autenticación y Roles
+
+Sistema de login: 
+Permitir acceso solo a usuarios autorizados (ej. personal del estacionamiento).
+Roles y permisos: 
+Definir diferentes niveles de acceso según el rol (ej. administrador, operador).
+Flujo de la Aplicación
+Pantalla de Login
+
+Usuario ingresa sus credenciales.
+Sistema verifica autenticación y redirige al panel principal.
+Panel Principal
+
+Muestra un resumen del estado actual del estacionamiento (espacios ocupados y disponibles).
+Opciones de navegación: 
+"Registrar Entrada", "Registrar Salida", "Gestión de Espacios", "Historial y Reportes".
+Registrar Entrada
+
+Formulario para ingresar datos del vehículo.
+Verificación de espacios disponibles.
+Asignación de espacio y confirmación de registro.
+Registrar Salida
+
+Formulario para ingresar datos de salida.
+Cálculo de la tarifa según el tiempo de permanencia.
+Confirmación de pago y liberación del espacio.
+Gestión de Espacios
+
+Vista en tiempo real de todos los espacios (ocupados y libres).
+Opciones para configurar el número de espacios, designar espacios especiales, etc.
+Historial y Reportes
+
+Vista de registros de entradas y salidas.
+Generación de reportes según filtros (fecha, tipo de vehículo, etc.).
