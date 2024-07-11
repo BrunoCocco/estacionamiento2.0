@@ -59,3 +59,45 @@ Historial y Reportes
 
 Vista de registros de entradas y salidas.
 Generación de reportes según filtros (fecha, tipo de vehículo, etc.).
+
+
+--------------------
+
+
+
+Registro de Salida:
+
+Formulario de salida: Crear un formulario similar al de ingreso donde se pueda registrar la salida del vehículo. Debe incluir la patente del vehículo y la hora de salida.
+Actualizar almacenamiento: Buscar el vehículo en el almacenamiento (localStorage o sessionStorage), actualizar su hora de salida y cualquier otro dato relevante.
+Cálculo de Tarifa:
+
+Definir tarifas: Establecer una estructura de tarifas según el tiempo de estacionamiento.
+Calcular el costo: Implementar una función que calcule el costo del estacionamiento basándose en la hora de ingreso y la hora de salida.
+Generar Comprobante:
+
+Generar recibo: Crear una función que genere un recibo con todos los datos relevantes (nombre, patente, hora de ingreso, hora de salida, tiempo total y costo).
+Mostrar recibo: Mostrar el recibo en la interfaz de usuario o permitir descargarlo/impimirlo.
+Historial de Transacciones:
+
+Mostrar historial: Implementar una sección en la interfaz donde se pueda ver el historial de vehículos estacionados, incluyendo detalles de ingresos, salidas y costos.
+Filtrado y búsqueda: Agregar funcionalidades de filtrado y búsqueda en el historial para facilitar la localización de transacciones específicas.
+Validaciones y Errores:
+
+Validar datos de entrada: Asegurarse de que los datos ingresados en los formularios sean válidos (e.g., formato de la patente, horas válidas).
+Manejo de errores: Implementar manejo de errores para casos como patentes duplicadas o vehículos que intentan salir sin haber ingresado.
+Interfaz de Usuario:
+
+Mejorar la UI/UX: Mejorar la apariencia de la interfaz, hacerlo más intuitivo y fácil de usar.
+Notificaciones: Agregar notificaciones para confirmar acciones (e.g., ingreso registrado, salida registrada, errores).
+Persistencia de Datos:
+
+Sincronización de datos: Asegurarse de que los datos persistan entre sesiones del navegador.
+Backup/Exportación: Implementar funcionalidades para exportar los datos del estacionamiento, por ejemplo, a un archivo JSON o CSV.
+Resumen de los Pasos:
+Implementar el registro de salida.
+Calcular las tarifas de estacionamiento.
+Generar y mostrar comprobantes de pago.
+Crear un historial de transacciones.
+Validar datos y manejar errores.
+Mejorar la interfaz de usuario.
+Asegurar la persistencia y exportación de datos.
