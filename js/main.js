@@ -1,4 +1,5 @@
 const INGERSO = []
+const precioHora = 1;
 
 class Auto {
     constructor(nombre,patente,hora) {
@@ -7,12 +8,22 @@ class Auto {
         this.hora = hora;
     }
 }
-//aqui una funcion que tome los datos del storage guardados y printee los datos en el navegador " posiciones usadas"
 
+//aqui una funcion que tome los datos del storage guardados y printee los datos en el navegador " posiciones usadas"
+function disponibilidad (){
+
+    checkstorage();
+    if(INGERSO.length <= 19){
+        console.log("tienes disponibilidad")
+    } else{
+        console.log(" el estacionamiento esta lleno")
+    }
+}
 
 const ingreso = document.getElementById("botonInit");
 
 const nuevoAuto = () => {
+    disponibilidad();
     
     
     this.nombre = document.getElementById("nuevo--nombre").value;
@@ -31,3 +42,8 @@ function setStorage(){
 }
 
 ingreso.addEventListener("click", nuevoAuto);
+
+function checkstorage(){
+    let storage = localStorage.getItem("autos")
+    let autos = JSON.parse(storage)
+}
